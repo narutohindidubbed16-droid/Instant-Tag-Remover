@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 import pyrogram
 import os
 from pyrogram import Client, filters
